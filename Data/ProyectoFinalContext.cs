@@ -15,5 +15,13 @@ namespace ProyectoFinal.Data
         }
 
         public DbSet<ProyectoFinal.Models.Evento> Evento { get; set; } = default!;
+
+        public DbSet<ProyectoFinal.Models.Anfitrion> Anfitrion { get; set; } = default!;
+
+        public DbSet<ProyectoFinal.Models.Categoria> Categoria { get; set; } = default!;
+
+        public DbSet<ProyectoFinal.Models.Dj> Dj { get; set; } = default!;
+
+        public DbSet<ProyectoFinal.Models.InformacionPago> InformacionPago { get; set; } = default!;
     }
 }

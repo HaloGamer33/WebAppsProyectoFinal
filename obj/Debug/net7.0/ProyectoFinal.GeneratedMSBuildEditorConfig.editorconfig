@@ -16,6 +16,66 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\HaloGamer33\Downloads\ProyectoFinal
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/HaloGamer33/Downloads/ProyectoFinal/Pages/Anfitriones/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5maXRyaW9uZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HaloGamer33/Downloads/ProyectoFinal/Pages/Anfitriones/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5maXRyaW9uZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HaloGamer33/Downloads/ProyectoFinal/Pages/Anfitriones/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5maXRyaW9uZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HaloGamer33/Downloads/ProyectoFinal/Pages/Anfitriones/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5maXRyaW9uZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HaloGamer33/Downloads/ProyectoFinal/Pages/Anfitriones/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5maXRyaW9uZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HaloGamer33/Downloads/ProyectoFinal/Pages/Categorias/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HaloGamer33/Downloads/ProyectoFinal/Pages/Categorias/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HaloGamer33/Downloads/ProyectoFinal/Pages/Categorias/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HaloGamer33/Downloads/ProyectoFinal/Pages/Categorias/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HaloGamer33/Downloads/ProyectoFinal/Pages/Categorias/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HaloGamer33/Downloads/ProyectoFinal/Pages/Djs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGpzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HaloGamer33/Downloads/ProyectoFinal/Pages/Djs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGpzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HaloGamer33/Downloads/ProyectoFinal/Pages/Djs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGpzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HaloGamer33/Downloads/ProyectoFinal/Pages/Djs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGpzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HaloGamer33/Downloads/ProyectoFinal/Pages/Djs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGpzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/HaloGamer33/Downloads/ProyectoFinal/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,6 +102,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/HaloGamer33/Downloads/ProyectoFinal/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HaloGamer33/Downloads/ProyectoFinal/Pages/InformacionPagos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5mb3JtYWNpb25QYWdvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HaloGamer33/Downloads/ProyectoFinal/Pages/InformacionPagos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5mb3JtYWNpb25QYWdvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HaloGamer33/Downloads/ProyectoFinal/Pages/InformacionPagos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5mb3JtYWNpb25QYWdvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HaloGamer33/Downloads/ProyectoFinal/Pages/InformacionPagos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5mb3JtYWNpb25QYWdvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HaloGamer33/Downloads/ProyectoFinal/Pages/InformacionPagos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5mb3JtYWNpb25QYWdvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/HaloGamer33/Downloads/ProyectoFinal/Pages/Privacy.cshtml]

@@ -25,7 +25,11 @@ namespace ProyectoFinal.Pages.Eventos
         {
             if (_context.Evento != null)
             {
-                Evento = await _context.Evento.ToListAsync();
+                Evento = await _context.Evento
+                .Include(e => e.Anfitrion)
+                .Include(e => e.Categoria)
+                .Include(e => e.Dj)
+                .Include(e => e.Pago).ToListAsync();
             }
         }
     }

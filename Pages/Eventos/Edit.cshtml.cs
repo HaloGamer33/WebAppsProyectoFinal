@@ -36,6 +36,10 @@ namespace ProyectoFinal.Pages.Eventos
                 return NotFound();
             }
             Evento = evento;
+           ViewData["AnfitrionId"] = new SelectList(_context.Set<Anfitrion>(), "Id", "Id");
+           ViewData["CategoriaId"] = new SelectList(_context.Set<Categoria>(), "Id", "Id");
+           ViewData["DjId"] = new SelectList(_context.Set<Dj>(), "Id", "Id");
+           ViewData["PagoId"] = new SelectList(_context.Set<InformacionPago>(), "Id", "Id");
             return Page();
         }
 

@@ -15,19 +15,39 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Evento.Id" />
             <div class="form-group">
-                <label asp-for="Evento.Host" class="control-label"></label>
-                <input asp-for="Evento.Host" class="form-control" />
-                <span asp-validation-for="Evento.Host" class="text-danger"></span>
+                <label asp-for="Evento.AnfitrionId" class="control-label"></label>
+                <select asp-for="Evento.AnfitrionId" class="form-control" asp-items="ViewBag.AnfitrionId"></select>
+                <span asp-validation-for="Evento.AnfitrionId" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Evento.Date" class="control-label"></label>
-                <input asp-for="Evento.Date" class="form-control" />
-                <span asp-validation-for="Evento.Date" class="text-danger"></span>
+                <label asp-for="Evento.CategoriaId" class="control-label"></label>
+                <select asp-for="Evento.CategoriaId" class="form-control" asp-items="ViewBag.CategoriaId"></select>
+                <span asp-validation-for="Evento.CategoriaId" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Evento.Price" class="control-label"></label>
-                <input asp-for="Evento.Price" class="form-control" />
-                <span asp-validation-for="Evento.Price" class="text-danger"></span>
+                <label asp-for="Evento.DjId" class="control-label"></label>
+                <select asp-for="Evento.DjId" class="form-control" asp-items="ViewBag.DjId"></select>
+                <span asp-validation-for="Evento.DjId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Evento.PagoId" class="control-label"></label>
+                <select asp-for="Evento.PagoId" class="form-control" asp-items="ViewBag.PagoId"></select>
+                <span asp-validation-for="Evento.PagoId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Evento.Fecha" class="control-label"></label>
+                <input asp-for="Evento.Fecha" class="form-control" />
+                <span asp-validation-for="Evento.Fecha" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Evento.Precio" class="control-label"></label>
+                <input asp-for="Evento.Precio" class="form-control" />
+                <span asp-validation-for="Evento.Precio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Evento.NoInvitados" class="control-label"></label>
+                <input asp-for="Evento.NoInvitados" class="form-control" />
+                <span asp-validation-for="Evento.NoInvitados" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />

@@ -14,13 +14,25 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Evento[0].Host)
+                @Html.DisplayNameFor(model => model.Evento[0].Anfitrion)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Evento[0].Date)
+                @Html.DisplayNameFor(model => model.Evento[0].Categoria)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Evento[0].Price)
+                @Html.DisplayNameFor(model => model.Evento[0].Dj)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Evento[0].Pago)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Evento[0].Fecha)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Evento[0].Precio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Evento[0].NoInvitados)
             </th>
             <th></th>
         </tr>
@@ -29,13 +41,25 @@
 @foreach (var item in Model.Evento) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Host)
+                @Html.DisplayFor(modelItem => item.Anfitrion.Id)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Date)
+                @Html.DisplayFor(modelItem => item.Categoria.Id)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Price)
+                @Html.DisplayFor(modelItem => item.Dj.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pago.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fecha)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Precio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NoInvitados)
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |

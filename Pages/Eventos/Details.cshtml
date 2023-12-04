@@ -12,22 +12,46 @@
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Evento.Host)
+            @Html.DisplayNameFor(model => model.Evento.Anfitrion)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Evento.Host)
+            @Html.DisplayFor(model => model.Evento.Anfitrion.Id)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Evento.Date)
+            @Html.DisplayNameFor(model => model.Evento.Categoria)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Evento.Date)
+            @Html.DisplayFor(model => model.Evento.Categoria.Id)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Evento.Price)
+            @Html.DisplayNameFor(model => model.Evento.Dj)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Evento.Price)
+            @Html.DisplayFor(model => model.Evento.Dj.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Evento.Pago)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Evento.Pago.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Evento.Fecha)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Evento.Fecha)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Evento.Precio)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Evento.Precio)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Evento.NoInvitados)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Evento.NoInvitados)
         </dd>
     </dl>
 </div>
